@@ -1,20 +1,7 @@
-body 
+p
   { 
-  display: grid;
-  grid-template-areas:
-    "header1 header2 header3 header4"
-    "side main main main"
-    "side footer footer footer";
-  background-color: white;
-  grid-gap: .3rem;
-  grid-template-rows: 80px 3fr 70px;  
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  height: 100vh;
-  margin: 10px;
-  margin-top: 010px;
+  padding: 30px;
   font-style: normal;
   font-family: Arial;
-  text-align: center;
+  text-align: left;
   } 
